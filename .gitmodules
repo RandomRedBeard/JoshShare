@@ -1,0 +1,3 @@
+[submodule "dungeon_runners/vendor/jansson"]
+	path = dungeon_runners/vendor/jansson
+	url = https://github.com/akheron/jansson.git
