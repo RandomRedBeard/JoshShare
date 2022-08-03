@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 2.8)
 project(DR)
 
-set(JANSSON_WITHOUT_TESTS ON BOOL FORCE)
+set(JANSSON_WITHOUT_TESTS ON CACHE BOOL "Disable Tests" FORCE)
 set(JANSSON_BUILD_DOCS OFF CACHE BOOL "Disable sphinx docs" FORCE)
 add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/vendor/jansson")
 
